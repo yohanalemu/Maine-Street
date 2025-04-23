@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Poly:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
    
   </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light p-3">
         <div class="container">
             <a class="navbar-brand" href="#"><img src ="images/Untitled design (14).png" width="100"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -31,43 +33,65 @@
         </div>
     </nav>
 
-     <!--HERO-->
-     <!--BACKGROUND IMAGE : CSS-->
-    <section class="hero">
-    </section> 
+<section class="w-100 m-auto" data-aos="fade-down">
+    <div class="w-100">
+      <div class="col-12">
+        <h1>Welcome to Maine Street in<br> <span>DOWNTOWN MURFREESBORO</span></h1>
+         <!-- YouTube Video Embed -->
+         <div class="video-wrapper" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;">
+            <iframe
+              src="https://www.youtube.com/embed/IrgHgzra9HE?autoplay=1&mute=1&controls=0&rel=0&showinfo=0&modestbranding=1&loop=1&playlist=IrgHgzra9HE"
+              style="position: absolute; top: -10%; left: 0; width: 100%; height: 100%; border: none;"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="YouTube video"
+            ></iframe>
+          </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="hero-container text-center pb-5">
-        <div class="section-header">
-            <h2>Welcome to the beautiful <br> <span>DOWNTOWN MURFREESBORO</span></h2>
-            <p>We have unique shops, restaurants, private businesses, and government offices throughout the 20 blocks of our historic downtown. Our walk-able Public Square surrounds the 1859 historic Rutherford County Courthouse, and vibrant side streets are home to approximately 400 locally owned businesses. 
-                Come find your place here.</p>
-        </div>
-        <div class="image-links">
-            <div class="image-card">
-               <img src="images/image 1.jpg" alt="Attractions">
-               <a href="#"> <div class="image-overlay">SHOPPING</div></a>
+
+   <!-- Second Section -->
+   <section class="container section-two my-5 pt-0 mt-0 section-with-svg">
+    <div class="row d-flex flex-row-reverse">
+      <div class="col pb-4">
+        <h2>EXPLORE</h2>
+      </div>
+      <div class="col-md-10 text-start">
+        <p class="pb-5">We have unique shops, restaurants, private businesses, and government offices throughout the 20 blocks of our historic downtown. Our walk-able Public Square surrounds the 1859 historic Rutherford County Courthouse, and vibrant side streets are home to approximately 400 locally owned businesses. 
+            Come find your place here.</p>
+            <div class="image-links">
+                <div class="image-card">
+                   <img src="images/image 1.jpg" alt="Attractions">
+                   <a href="#"> <div class="image-overlay">SHOPPING</div></a>
+                </div>
+                <div class="image-card">
+                   <img src="images/image 2.jpg" alt="Events"> 
+                   <a href="#"> <div class="image-overlay">FOOD & DRINK</div></a>
+                </div>
+                <div class="image-card">
+                  <img src="images/image 3.jpg" alt="Dining"> 
+                  <a href="#"> <div class="image-overlay">ENTERTAINMENT</div></a>
+                </div>
             </div>
-            <div class="image-card">
-               <img src="images/image 2.jpg" alt="Events"> 
-               <a href="#"> <div class="image-overlay">FOOD & DRINK</div></a>
-            </div>
-            <div class="image-card">
-              <img src="images/image 3.jpg" alt="Dining"> 
-              <a href="#"> <div class="image-overlay">ENTERTAINMENT</div></a>
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
     <!--DISCOVER DOWNTOWN-->
     <section class="info-section">
         <div class="info-container">
-            <div class="info-video">
-                <iframe src="https://www.youtube.com/embed/IrgHgzra9HE?si=zDwBzHeoRiwNwac8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="info-img">
+                <img src="images/hero picture.webp">
             </div>
             <div class="info-text">
-                <h2>Discover Downtown</h2>
+                <h2>Discover <br> Downtown</h2>
                 <p>Explore the best of Murfreesboro’s Main Street! From charming local shops to vibrant eateries and historic landmarks, there’s always something happening downtown.</p>
-                <a href="#" class="btn">Learn More</a>
+                <div class="view-all">
+                    <a href="#" style="color:white;margin:0;">Learn More
+                    </a> 
+                    </div>
             </div>
         </div>
     </section>
@@ -106,16 +130,16 @@
    <!--DISCOVER MORE GRID-->
     <div class="grid-container">
         <a href="#" class="grid-item large">
-            <img src="images/image 11.jpg" alt="Large Image">
+            <img src="images/image 4.jpg" alt="Large Image">
+            <div class="overlay">Downtown Maps</div>
+        </a>
+        <a href="#" class="grid-item">
+            <img src="images/image 11.jpg" alt="Small Image 1">
             <div class="overlay">Businesses</div>
         </a>
         <a href="#" class="grid-item">
-            <img src="images/image 10.png" alt="Small Image 1">
-            <div class="overlay">Events</div>
-        </a>
-        <a href="#" class="grid-item">
             <img src="images/image 5.png" alt="Small Image 2">
-            <div class="overlay">Downtown Maps</div>
+            <div class="overlay">Organizations</div>
         </a>
     </div>
 
@@ -151,7 +175,7 @@
 <footer class="footer-container py-5">
     <!-- NEWSLETTER -->
     <div class="text-center mb-4">
-        <h2 class="fw-bold">Subscribe to the Newsletter</h2>
+        <h3>Subscribe to the Newsletter</h3>
         <p>Stay up-to-date on what’s happening in Murfreesboro!</p>
         <div class="d-flex justify-content-center">
             <input type="email" class="form-control w-25 newsletter-input" placeholder="Enter your email">
@@ -200,6 +224,13 @@
   
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // animation duration in ms
+    once: true        // only animate once when scrolling down
+  });
+</script>
 
   </body>
 </html>
